@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Java Exercises</title>
+        <meta name="description" content="JavaScript Exercises">
+        <meta name="author" content="She Codes">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1 id = "number-counter">0</h1>
+        </header>
+
+        <form>
+            <input type="button" onclick="incrementValue()" value="Increment Value" />
+            <input type="button" onclick="DecreaseValue()" value="Decrease Value" />
+        </form>
+
+        <div id = "exercise-2">
+            <h2>Available Food</h2>
+            <div id = "available-food">
+                <div>
+                    <li>Chocolate</li>
+                    <button> Add to Cart!</button>
+                </div>
+
+                <div>
+                    <li>Oranges</li>
+                    <button> Add to Cart!</button>
+                </div>
+
+                <div>
+                    <li>Terrys Chocolate Oranges</li>
+                    <button> Add to Cart!</button>
+                </div>
+            </div>
+            
+
+            <div id = "cart-container">
+                <h2>Shopping List </h2>
+                <ul id = "cart-list"></ul>
+            </div>
+        </div>
+
+        <script src = "script.js"></script>
+    </body>
+</html>
