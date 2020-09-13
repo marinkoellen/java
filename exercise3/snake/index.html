@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake!</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "not-in-game">
+        <h1>Snake!</h1>
+        <h2>Fruit Eaten:<span class="score">0</span></h2>
+        <button onClick="startGame(this)">Start!</button>
+        <h2>Highest Score:<span id="highscoreboard">0</span></h1>
+    </div>
+
+    <div id = "snake-game">
+      <canvas class="canvas" height = "300" width="300"></canvas>
+    </div>
+  <script type="text/javascript" src = "fruit.js"></script>
+  <script type="text/javascript" src = "snake.js"></script>
+  <script type="text/javascript" src = "script.js"></script>
+</body>
+</html>
